@@ -14,6 +14,9 @@
 		25D13AD423FBB751000B1476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D13AD323FBB751000B1476 /* Assets.xcassets */; };
 		25D13AD723FBB751000B1476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D13AD623FBB751000B1476 /* Preview Assets.xcassets */; };
 		25D13ADA23FBB751000B1476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D13AD823FBB751000B1476 /* LaunchScreen.storyboard */; };
+		25D13AE223FBB8EB000B1476 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D13AE123FBB8EB000B1476 /* AddView.swift */; };
+		25D13AE423FBC2B7000B1476 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D13AE323FBC2B7000B1476 /* ImagePicker.swift */; };
+		25DC691B23FE665300438803 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DC691A23FE665300438803 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		25D13AD623FBB751000B1476 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25D13AD923FBB751000B1476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25D13ADB23FBB751000B1476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D13AE123FBB8EB000B1476 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		25D13AE323FBC2B7000B1476 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		25DC691A23FE665300438803 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				25D13ACA23FBB74F000B1476 /* AppDelegate.swift */,
 				25D13ACC23FBB74F000B1476 /* SceneDelegate.swift */,
 				25D13AD123FBB74F000B1476 /* ContentView.swift */,
+				25DC691A23FE665300438803 /* DetailView.swift */,
+				25D13AE123FBB8EB000B1476 /* AddView.swift */,
+				25D13AE323FBC2B7000B1476 /* ImagePicker.swift */,
 				25D13AD323FBB751000B1476 /* Assets.xcassets */,
 				25D13AD823FBB751000B1476 /* LaunchScreen.storyboard */,
 				25D13ADB23FBB751000B1476 /* Info.plist */,
@@ -151,6 +160,9 @@
 			files = (
 				25D13ACB23FBB74F000B1476 /* AppDelegate.swift in Sources */,
 				25D13AD023FBB74F000B1476 /* Friends.xcdatamodeld in Sources */,
+				25D13AE223FBB8EB000B1476 /* AddView.swift in Sources */,
+				25DC691B23FE665300438803 /* DetailView.swift in Sources */,
+				25D13AE423FBC2B7000B1476 /* ImagePicker.swift in Sources */,
 				25D13AD223FBB74F000B1476 /* ContentView.swift in Sources */,
 				25D13ACD23FBB74F000B1476 /* SceneDelegate.swift in Sources */,
 			);
